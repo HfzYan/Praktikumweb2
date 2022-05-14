@@ -1,0 +1,27 @@
+.container-fluid {
+  margin-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+thead {
+  background-color: #dafffc;
+}
+
+.border {
+  border-style: groove;
+  border-color: #dafffc;
+}
+
+.form {
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  background-color: rgb(228, 255, 255);
+}
