@@ -5,8 +5,8 @@
 function addMember(
     $nama,
     $nomor,
-    $alamat,
     $password,
+    $alamat,
     $tglMendaftar,
     $tglTerakhirBayar,
     $koneksi
