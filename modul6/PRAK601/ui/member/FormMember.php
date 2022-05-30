@@ -110,9 +110,9 @@ if (isset($_POST['tambah'])) {
                 <label for="password" class="form-label">Password</label>
 
                 <?php if ($action == "Edit") {
-                    echo "<input type=\"text\" class=\"form-control\" name=\"password\" id=\"password\" value=\"" . $member['password'] . "\" required>";
+                    echo "<input type=\"text\" class=\"form-control\" name=\"password\" id=\"password\" value=\"" . $member['password_member'] . "\" required>";
                 } elseif ($action == "Hapus") {
-                    echo "<input type=\"text\" class=\"form-control\" name=\"password\" id=\"password\" value=\"" . $member['password'] . "\" disabled>";
+                    echo "<input type=\"text\" class=\"form-control\" name=\"password\" id=\"password\" value=\"" . $member['password_member'] . "\" disabled>";
                 } else {
                     echo "<input type=\"text\" class=\"form-control\" name=\"password\" id=\"password\" required>";
                 } ?>
